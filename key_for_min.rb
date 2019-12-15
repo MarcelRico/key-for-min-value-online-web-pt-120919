@@ -3,10 +3,11 @@
 
 def key_for_min_value(name_hash)
   return nil if name_hash == {}
-  smallest_value = []
+  
+  
   name_hash.each do |key,value|
-    smallest_key << value
-    
+    current_value = value
+    if(value )
     
   end
 end
