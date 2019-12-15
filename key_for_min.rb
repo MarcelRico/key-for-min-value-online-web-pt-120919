@@ -11,6 +11,7 @@ def key_for_min_value(name_hash)
     current_value = value
     if(min_value == nil)
       min_value = value
+      smallest_key = key
     else
       if(current_value < min_value)
         min_value = current_value
